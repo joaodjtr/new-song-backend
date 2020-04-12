@@ -4,9 +4,9 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = process.env.Spotify_CLIENT_ID; // Your client id
-var client_secret = process.env.Spotify_CLIENT_SECRET; // Your secret
-var redirect_uri = 'http://localhost:3000/callback'; // Your redirect uri
+var client_id = 'd517f32ca0f242078eecd6a1969a20a2'; // Your client id
+var client_secret = '88909b20807140e9b9b3ab56591e682f'; // Your secret
+var redirect_uri = 'https://new-song.herokuapp.com/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
